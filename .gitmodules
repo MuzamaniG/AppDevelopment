@@ -1,0 +1,3 @@
+[submodule "ncsuguessr"]
+	path = ncsuguessr
+	url = https://github.com/NCSU-App-Development-Club/ncsuguessr.git
