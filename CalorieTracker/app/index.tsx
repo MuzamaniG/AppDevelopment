@@ -1,16 +1,12 @@
 import { Text, View, StyleSheet } from "react-native";
 import FirstPage from "./FirstPage";
-
+import ExerciseHistory from "./ExerciseHistory"
 export default function Index() {
   return (
-    <View style={styles.container}>
+    <View>
       <FirstPage />
+      <ExerciseHistory/>
     </View>
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1, justifyContent: 'center', alignItems: 'center'
-  }
-})

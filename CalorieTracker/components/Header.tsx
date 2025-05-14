@@ -1,10 +1,10 @@
 import React from 'react'
 import { View, Text, StyleSheet } from 'react-native'
 
-export default function Header({ title }) {
+export default function Header(props: any) {
   return (
     <View style={styles.header}>
-      <Text style={styles.title}>{title}</Text>
+      <Text style={styles.title}>{props.title}</Text>
     </View>
   );
 }
@@ -12,14 +12,17 @@ export default function Header({ title }) {
 // pick one of the palettes below in your StyleSheet:
 const styles = StyleSheet.create({
   header: {
+
     height: 60,
     paddingHorizontal: 16,
     justifyContent: 'center',
+    alignItems: 'center',
     /* Example palette: Ocean Breeze */
-    backgroundColor: '#0077B6',
+    backgroundColor: '#F8F8F8',
+    padding: 50
   },
   title: {
-    color: '#FFFFFF',
+    color: 'black',
     fontSize: 20,
     fontWeight: '600',
   },
