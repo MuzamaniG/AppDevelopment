@@ -1,4 +1,5 @@
-## NCSUGuessr
-**A GeoGuessr‑inspired Location Guessing Game for NC State University**  
-Built in collaboration with the NC State App Development Team, NCSUGuessr challenges players to pinpoint NC State landmarks and campus scenes on an interactive map.
+# Project Descriptions
 
+## NCSUGuessr
+**A GeoGuessr‑inspired Campus Challenge for NC State University**  
+In collaboration with the NCSU App Development team, we built NCSUGuessr to test players’ knowledge of campus landmarks by dropping them onto an interactive map and asking them to pinpoint their location.
